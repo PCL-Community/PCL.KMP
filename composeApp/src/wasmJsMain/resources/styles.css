@@ -1,0 +1,15 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C9DCF3;
+}
+
+#app {
+    width: 1215px;
+    height: 705px;
+    border: 6px solid gray;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
