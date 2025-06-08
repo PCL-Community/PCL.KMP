@@ -74,7 +74,7 @@ fun PCLCard(
                 .fillMaxWidth()
                 .combinedClickable(
                     interactionSource = null,
-                    onClick = { expanded = !expanded },
+                    onClick = { if (collapsible) expanded = !expanded },
                     indication = null,
                 )
         ) {
